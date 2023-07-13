@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+}
+
+body {
+  background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+label {
+  color: #0f0;
+}
+
+button {
+  border: 1px solid #0f0;
+  background-color: #000;
+  color: #0f0;
+  padding: 4px;
+}
+
+hr {
+  height: 1px;
+  background-color: #0f0;
+  border: none;
+}
+
+input {
+  border: 1px solid #0f0;
+  background-color: #000;
+  color: #0f0;
+  padding: 4px;
+}
+
+.Menu {
+  width: 256px;
+  height: 80vh;
+  border: 1px solid #0f0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ColorChoose {
+  height: 64px;
+}
+
+.BtnMenu:hover{
+    cursor: cell;
+}
+
+.RadRed:hover,
+.RadGreen:hover,
+.RadBlue:hover{
+    cursor: crosshair;
+}
+
+.SetSize:hover {
+    cursor: col-resize;
+}
+
+.SizeSetup{
+    height: 64px;
+}
